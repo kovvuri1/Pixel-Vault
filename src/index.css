@@ -1,0 +1,36 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.sewidth{
+  position: absolute;
+  left: 990px;
+  top: 10px;
+}
+.Main{
+  position: absolute;
+  top: 15px;
+  right: 80px;
+  width: 650px;
+  height: 40px;
+  border: 2px solid;
+}
+input{
+  /* height: 50px;
+  background-color: rgba(186, 186, 234, 0.734);
+  border-radius: 10px; */
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+input:focus {
+  border-color: #007BFF;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+}
+input::placeholder{
+  text-align: center;
+}
